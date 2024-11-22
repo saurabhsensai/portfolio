@@ -4,7 +4,7 @@ import { getSectionHeading } from "utils";
 
 const AboutMe = () => (
   <div id={Section.AboutMe}>
-    {getSectionHeading(Section.AboutMe)}
+    
 
     <div className="grid md:grid-cols-4 gap-12">
       <div className="relative col-span-1 hidden md:block">

@@ -53,7 +53,7 @@ const Contact = () => {
           label="Full Name"
           className="md:w-3/4"
           hasError={!!errors.name}
-          placeholder="Regina Phalange"
+          placeholder="Jon Doe"
           description={errors.name?.message || "The one where you tell me your name"}
           {...register("name", { required: { value: true, message: "This is a required field" } })}
         />
@@ -63,7 +63,7 @@ const Contact = () => {
           className="md:w-3/4"
           label="Email Address"
           hasError={!!errors.email}
-          placeholder="regina@centralperk.com"
+          placeholder="jondoe@gmail.com"
           description={errors.email?.message || "The one where you tell me how I can contact you back"}
           {...register("email", {
             required: { value: true, message: "This is a required field" },
@@ -84,9 +84,11 @@ const Contact = () => {
         />
       </form>
 
-      <Button icon={FaPaperPlane} className="mt-8" onClick={onSubmit} disabled={submitting}>
+      <Button icon={FaPaperPlane} className="mt-8" onClick={() => {}} disabled={submitting}>
         Send Message
       </Button>
+            <br></br>
+      <label className="text-rose-700"> This button is under construction. Please contact me at <b>saurabhnale9@gmail.com</b>. Thanks! </label>
     </div>
   );
 };

@@ -22,40 +22,32 @@ type Education = {
 const education: Education[] = [
   {
     id: 1,
-    logo: "/images/education/dsi.png",
-    institution: "Dayananda Sagar College of Engineering",
+    logo: "/images/education/rit.png",
+    institution: "Rajarambapu Institute of Technology",
     degree: "Bachelor's Degree",
-    study: "Computer Science & Engineering",
-    location: "Bangalore, India",
-    period: { start: "2015", end: "2018" },
+    study: "Computer Science & Information Technology",
+    location: "Sangli, India",
+    period: { start: "2021", end: "2024" },
   },
   {
     id: 2,
-    logo: "/images/education/dsi.png",
-    institution: "Dayananda Sagar Institute of Technology",
+    logo: "/images/education/cwit.png",
+    institution: "Cusrow Wadia Institute of Technology",
     degree: "Diploma",
-    study: "Computer Science & Engineering",
-    location: "Bangalore, India",
-    period: { start: "2012", end: "2015" },
+    study: "Computer Engineering",
+    location: "Pune, India",
+    period: { start: "2019", end: "2021" },
   },
   {
     id: 3,
-    logo: "/images/education/jvvp.png",
-    institution: "Jnana Vijnana Vidyapeetha",
+    logo: "/images/education/mhsp.png",
+    institution: "Mudhoji High School",
     degree: "High School",
-    study: "CBSE",
-    location: "Bangalore, India",
-    period: { start: "2008", end: "2012" },
+    study: "SSC",
+    location: "Phaltan, India",
+    period: { start: "2017", end: "2019" },
   },
-  {
-    id: 4,
-    logo: "/images/education/sams.png",
-    institution: "Sri Aurobindo Memorial School",
-    degree: "Elementary & Primary School",
-    study: "CBSE",
-    location: "Bangalore, India",
-    period: { start: "2000", end: "2008" },
-  },
+ 
 ];
 
 type Props = {
@@ -76,7 +68,7 @@ const Education: React.FC<Props> = ({ data, isFirst, isLast }) => (
     <div className="-ml-2 mt-8 flex-shrink-0 relative w-3 h-3 rounded-full shadow-lg bg-teal-500/80 dark:bg-white/80 group-hover:w-6 transition-[width]" />
 
     <div className="mt-5 ml-8 grid gap-2 pb-2">
-      <div className="relative w-10 h-10">
+      <div className="relative w-10 h-15">
         <Image src={data.logo} width={40} height={40} alt={data.institution} className="object-contain" />
       </div>
 

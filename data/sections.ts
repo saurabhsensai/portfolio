@@ -25,14 +25,7 @@ const sectionsList: SectionMap = {
     icon: FaDev,
     title: "Projects",
   },
-  [Section.Blog]: {
-    icon: MdBook,
-    title: "Blog",
-  },
-  [Section.Languages]: {
-    icon: FaSignLanguage,
-    title: "Languages",
-  },
+
   [Section.Achievements]: {
     icon: FaAward,
     title: "Achievements",
@@ -45,18 +38,6 @@ const sectionsList: SectionMap = {
     icon: BiDonateHeart,
     title: "Philantrophy",
   },
-  [Section.Photography]: {
-    icon: MdCamera,
-    title: "Photography",
-  },
-  [Section.Music]: {
-    icon: MdMusicNote,
-    title: "Music",
-  },
-  [Section.Designs]: {
-    icon: FaPaintBrush,
-    title: "Designs",
-  },
   [Section.Resume]: {
     icon: FaFilePdf,
     title: "Resume",
@@ -65,10 +46,7 @@ const sectionsList: SectionMap = {
     icon: FaPaperPlane,
     title: "Contact",
   },
-  [Section.AboutRotW]: {
-    icon: MdInfo,
-    title: "About Resume on the Web",
-  },
+  
 };
 
 export const sectionsArray: SectionArray = Object.entries(sectionsList).map(([id, { icon, title }]) => ({
