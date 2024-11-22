@@ -13,7 +13,7 @@ const Resume = () => (
         <ImageLink
           height={300}
           href={links.resume}
-          src="/images/resume/cover.jpg"
+          src="/images/resume/resume.png"
           alt="Amruth Pillai's Resume on Print"
         />
       </div>
@@ -21,8 +21,7 @@ const Resume = () => (
       <div className="flex flex-col items-start gap-8 flex-[2]">
         <div className="max-w-full prose prose-lg md:prose-2xl prose-neutral dark:prose-invert">
           <h4>
-            To those HRs out there who need a more organized and minimal version of my information, you can download the
-            trusted PDF version here:
+          Can't handle scrolling? Fear not, – a downloadable PDF that's easier than reading my entire website.
           </h4>
         </div>
 
