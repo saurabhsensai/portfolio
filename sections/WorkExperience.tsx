@@ -33,7 +33,7 @@ const workExperiences: WorkExperience[] = [
   },
   {
     id: 2,
-    logo: "/images/work-experience/twilio.svg",
+    logo: "/images/work-experience/cong.png",
     name: "Cognautica.",
     period: { start: "Oct 23", end: "Jan 24" },
     position: "Computer Vision Intern",
