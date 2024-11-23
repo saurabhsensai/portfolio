@@ -16,7 +16,7 @@ const AboutMe = () => (
         />
       </div>
 
-      <div className="col-span-3 max-w-full prose prose-sm md:prose-base prose-neutral dark:prose-invert">
+      <div className="col-span-3 text-xl max-w-full prose prose-sm md:prose-base prose-neutral dark:prose-invert">
         <p>Hey there!</p>
 
         <p>

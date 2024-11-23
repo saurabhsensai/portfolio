@@ -53,7 +53,7 @@ const Contact = () => {
           label="Full Name"
           className="md:w-3/4"
           hasError={!!errors.name}
-          placeholder="Jon Doe"
+          placeholder="Saurabh Nale"
           description={errors.name?.message || "The one where you tell me your name"}
           {...register("name", { required: { value: true, message: "This is a required field" } })}
         />
@@ -63,7 +63,7 @@ const Contact = () => {
           className="md:w-3/4"
           label="Email Address"
           hasError={!!errors.email}
-          placeholder="jondoe@gmail.com"
+          placeholder="saurabhnale@gmail.com"
           description={errors.email?.message || "The one where you tell me how I can contact you back"}
           {...register("email", {
             required: { value: true, message: "This is a required field" },

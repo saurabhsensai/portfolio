@@ -7,22 +7,33 @@ import Image from "next/image";
 
 const Header: React.FC = () => {
   const { width } = useWindowDimensions();
-
+  
   return (
-    <div id="header" className="h-screen grid place-items-center place-content-center gap-4">
-      {/* Photo Wall */}
-     
-
-      {/* Logo */}
-      <Image src="/images/SN.png" width={500} height={140} alt="Amruth Pillai" priority />
-
-      {/* Text Version */}
+    <div id="header" className="animated-gradient-bg h-screen relative">
+      {/* Animated dots */}
+      <div className="dot"></div>
+      <div className="dot"></div>
+      <div className="dot"></div>
+      <div className="dot"></div>
       
-      {/* Ingredients */}
-      <Ingredients />
-
-      {/* Social Profiles */}
-      <Profiles />
+      {/* Content container */}
+      <div className="relative z-10 h-full grid place-items-center place-content-center gap-4">
+        {/* Logo */}
+        <Image 
+          src="/images/SN.png" 
+          width={500} 
+          height={140} 
+          alt="Amruth Pillai" 
+          priority 
+          className="relative z-10"
+        />
+        
+        {/* Ingredients */}
+        <Ingredients />
+        
+        {/* Social Profiles */}
+        <Profiles />
+      </div>
     </div>
   );
 };
