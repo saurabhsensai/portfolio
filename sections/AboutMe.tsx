@@ -20,7 +20,7 @@ const AboutMe = () => (
         <p>Hey there!</p>
 
         <p>
-        Hey there! I&apos;m Saurabh Nale who&apos;s totally in love with coding, building cool stuff, and diving deep into the world of technology. 
+        I&apos;m Saurabh Nale who&apos;s totally in love with coding, building cool stuff, and diving deep into the world of technology. 
         As a recent computer science grad, I&apos;m all about creating awesome web applications and playing around with machine learning – basically, 
         making computers do some pretty amazing things.
         </p>
