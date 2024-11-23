@@ -7,35 +7,22 @@ import Image from "next/image";
 
 const Header: React.FC = () => {
   const { width } = useWindowDimensions();
-  
+
   return (
-    <div id="header" className="animated-gradient-bg min-h-screen relative w-full">
-      {/* Animated dots - responsive sizes */}
-      <div className="dot"></div>
-      <div className="dot"></div>
-      <div className="dot"></div>
-      <div className="dot"></div>
+    <div id="header" className="h-screen grid place-items-center place-content-center gap-4">
+      {/* Photo Wall */}
+     
+
+      {/* Logo */}
+      <Image src="/images/SN.png" width={500} height={140} alt="Amruth Pillai" priority />
+
+      {/* Text Version */}
       
-      {/* Content container */}
-      <div className="relative z-10 h-full w-full flex flex-col justify-center items-center gap-4 px-4 py-8">
-        {/* Logo */}
-        <div className="w-full max-w-[500px] px-4 sm:px-0">
-          <Image 
-            src="/images/SN.png" 
-            width={500} 
-            height={140} 
-            alt="Amruth Pillai" 
-            priority 
-            className="w-full h-auto"
-          />
-        </div>
-        
-        {/* Ingredients */}
-        <Ingredients />
-        
-        {/* Social Profiles */}
-        <Profiles />
-      </div>
+      {/* Ingredients */}
+      <Ingredients />
+
+      {/* Social Profiles */}
+      <Profiles />
     </div>
   );
 };
