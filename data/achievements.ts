@@ -3,29 +3,10 @@ import type { Achievement } from "types/Sections";
 const achievementList: Achievement[] = [
   {
     id: 1,
-    title: "International Flutter Hackathon '19",
-    subtitle: "1st Place",
+    title: "Certificate of Appreciation",
+    subtitle: "The IASF 2023, an summit organised by IUCEE. Our team has won Certificate of Appreciation for the idea we have offered on Digital Pollution regarding SDG goal 7.",
   },
-  {
-    id: 2,
-    title: "Venturesity Banyan Hack '16",
-    subtitle: "1st Place",
-  },
-  {
-    id: 3,
-    title: "eGovernments Foundation Hackathon '17",
-    subtitle: "1st Place",
-  },
-  {
-    id: 4,
-    title: "Smart India Hackathon '17",
-    subtitle: "1st Place",
-  },
-  {
-    id: 5,
-    title: "NIT Trichy - Pragyan Hackathon '16",
-    subtitle: "1st Place",
-  },
+  
 ];
 
 export default achievementList;
