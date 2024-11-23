@@ -15,7 +15,7 @@ const projectsList: Project[] = [
   },
   {
     id: 2,
-    image: "/images/projects/time-enna.jpg",
+    image: "/images/projects/ECGAI.gif",
     name: "Time Enna",
     summary:
       "A fun experiement to understand the ache that is handling Dates and Time Zones on the frontend. Allows you to check the current time of multiple timezones at once, with a unique UI experience.",
