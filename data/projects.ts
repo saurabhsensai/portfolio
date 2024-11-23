@@ -16,13 +16,13 @@ const projectsList: Project[] = [
   {
     id: 2,
     image: "/images/projects/ECGAI.gif",
-    name: "Time Enna",
+    name: "ECG AI: An intelligent System for cardiac health monitoring",
     summary:
-      "A fun experiement to understand the ache that is handling Dates and Time Zones on the frontend. Allows you to check the current time of multiple timezones at once, with a unique UI experience.",
-    tags: ["opensource", "react", "dayjs", "tailwindcss"],
+      "ECG AI! Combining Arduino and AD8232 hardware with a custom CNN model, I built a system that analyzes ECG signals for abnormalities in real-time. This opens doors for early detection of cardiac issues, increased accessibility to monitoring, and empowering individuals with real-time feedback.",
+    tags: ["Machine Learning", "Computer Vision", "Signal Processing", "Python Flask"],
     link: {
-      web: "https://timeenna.com",
-      github: "https://github.com/AmruthPillai/Time-Enna",
+      web: "https://github.com/saurabhsensai/ECG-AI",
+      github: "https://github.com/saurabhsensai/ECG-AI",
     },
   },
   
